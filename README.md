@@ -1,6 +1,14 @@
 
 # AI Question-Answer API with Flask and PostgreSQL
 
+## Requirements
+This projects need API key for Integrate the OpenAI API to get answers for the questions.
+In the current Project the AI that is used is Gemini.
+For getting API key you can access the following Link :
+https://ai.google.dev/gemini-api/docs/api-key?hl=he
+and follow the steps.
+
+
 ## Overview
 This project is a Flask-based application designed to handle user-submitted questions, send the questions to an AI service (such as OpenAI or Gemini AI), and return answers. The system stores both the questions and answers in a PostgreSQL database. The Flask server and PostgreSQL database are Dockerized, and database migrations are managed using Alembic. The project also includes automated tests to verify that the /ask endpoint works as expected.
 
