@@ -29,8 +29,7 @@ services:
       DB_PASSWORD: 6132
       DB_NAME: InsaitIO
       PYTHONPATH: /app
-      GEMINI_API_KEY : AIzaSyBDcq_pW15jmoPhF4rLDShj2Ikq5OtP-eE
-      API_KEY : pub_4797424ba30726a8d823c8e203845387fe464
+      OPENAI_API_KEY : <OPENAI_API_KEY>
 
 volumes:
   postgres_data:
