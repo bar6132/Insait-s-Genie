@@ -52,7 +52,7 @@ This project is a Flask-based application designed to handle user-submitted ques
 ## Setup and Installation
 1. **Clone the repository:**
     ```bash 
-	git clone https://https://github.com/bar6132/Insait-s-Backend-internship .
+	git clone https://https://github.com/bar6132/Insait-s-Genie .
     ```
 2. **Build and run the services using Docker Compose:**
     ```bash
