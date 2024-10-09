@@ -2,7 +2,7 @@
 # AI Question-Answer API with Flask and PostgreSQL
 
 ## Requirements
-This projects need API key for Integrate the OpenAI API to get answers for the questions.
+This projects need API key for Integrate with OpenAI API to get answers for the questions.
 In the current Project the AI that is used is Gemini.
 For getting API key you can access the following Link :
 https://ai.google.dev/gemini-api/docs/api-key?hl=he
