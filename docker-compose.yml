@@ -5,7 +5,6 @@ services:
     image: postgres:13
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 6132
       POSTGRES_DB: InsaitIO
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -26,7 +25,6 @@ services:
       DB_HOST: db
       DB_PORT: 5432
       DB_USER: postgres
-      DB_PASSWORD: 6132
       DB_NAME: InsaitIO
       PYTHONPATH: /app
       OPENAI_API_KEY : <OPENAI_API_KEY>

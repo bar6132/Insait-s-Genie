@@ -7,6 +7,10 @@ In the current Project the AI that is used is Gemini.
 For getting API key you can access the following Link :
 https://ai.google.dev/gemini-api/docs/api-key?hl=he
 and follow the steps.
+When received enter the key in the docker-compose.yml file in the : 
+<OPENAI_API_KEY>.
+
+
 
 
 ## Overview
